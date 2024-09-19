@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>IQUEN</title>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<link rel="stylesheet" href="weather.css" />
+	</head>
+
+	<body>
+		<header>
+			<h1>Weather</h1>
+			<h2>iquen marba</h2>
+		</header>
+		<main>
+			<div
+				id="centerbox"
+				data-aos="fade-down"
+				data-aos-easing="linear"
+				data-aos-duration="1500">
+				<div id="side">
+					<button id="showdropdown">Places</button>
+
+					<div id="dropdown">
+						<button id="biliran">Biliran</button>
+						<button id="easternSamar">Eastern Samar</button>
+						<button id="leyte">Leyte</button>
+						<button id="northernSamar">Northern Samar</button>
+						<button id="samar">Samar</button>
+						<button id="southernLeyte">Southern Leyte</button>
+						<button id="ormoc">Ormoc City</button>
+						<button id="tacloban">Tacloban</button>
+					</div>
+				</div>
+				<div id="centerplaceparent">
+					<div id="centerplacechild">
+						<h1 id="displayplace"></h1>
+					</div>
+					<div id="centerplacechild2">
+						<a href="#showdetails" id="toshowsection">show</a>
+					</div>
+				</div>
+			</div>
+		</main>
+		<section id="showdetails">
+			<div
+				id="show"
+				data-aos="fade-up"
+				data-aos-anchor-placement="bottom-bottom">
+				<div class="sec2center">
+					<img src="clear.gif" alt="" class="wicon" height="100px" />
+				</div>
+				<div id="" class="sec2center">
+					<h1 class="secin" id="shownameplacesec">place</h1>
+				</div>
+
+				<div id="currentweather" class="sec2center">
+					<h1 class="secin" id="currentweather">weather</h1>
+				</div>
+
+				<div id="showsecwind" class="sec2center">
+					<h1 class="secin" id="showsecwind">wind</h1>
+				</div>
+
+				<div id="showsecsea" class="sec2center">
+					<h1 class="secin" id="showsecsea">sea</h1>
+				</div>
+			</div>
+		</section>
+	</body>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="weather.js"></script>
+</html>
