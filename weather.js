@@ -9,7 +9,9 @@ let placelatlon = {
 	ormoc: { lat: 11.0044, lon: 124.6075 },
 	tacloban: { lat: 11.241, lon: 125.0036 },
 };
-let pass = "3275b5b4cd03aaf36fbb039fdfd49ca9";
+
+// himog key api
+let pass = "";
 
 let show = document.getElementById("show");
 let displayplace = document.getElementById("displayplace");
